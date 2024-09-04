@@ -1,0 +1,36 @@
+<!DOCTYPE html>    
+<html lang="en">    
+<head>    
+<meta charset="UTF-8">    
+<meta name="viewport" content="width=device-width, initial-scale=1.0">    
+<title>全屏图片与底部文字</title>    
+<style>    
+body, html {  
+    height: 100%;  
+    margin: 0;  
+    display: flex;  
+    flex-direction: column; /* 设置为列方向布局 */  
+    justify-content: flex-end; /* 内容对齐到容器底部 */  
+    background-image: url('https://pic1.zhimg.com/v2-393554bbfc176d5f14d85b6546d43a18_1440w.jpg?source=172ae18b');  
+    background-size: cover; /* 图片全屏显示 */  
+    background-position: center; /* 图片居中显示 */  
+    background-repeat: no-repeat; /* 图片不重复 */  
+}  
+  
+.flag-text {  
+    font-size: 50px;  
+    color: red; /* 字体颜色改为红色 */  
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* 文字阴影，增加可读性 */  
+    text-align: center; /* 文字居中显示 */  
+    padding: 20px; /* 为文字添加一些内边距，可根据需要调整 */  
+}  
+</style>    
+</head>    
+<body>    
+  
+<div class="flag-text">  
+    猜猜flag在哪里  
+</div>  
+  <!--flag is here Wm14aFozdHZZMlZoYmtocE9EQjFWa3BEVjBKWmMwMXdhMGR5YURsT1ZXMDFkalI0Y1ROQlVXcGFmUT09-->
+</body>    
+</html>
